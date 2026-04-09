@@ -1,0 +1,144 @@
+% Recommended LaTeX editor: Overleaf.com
+% Compile with XeLaTeX or pdfLaTeX
+
+\documentclass[letterpaper,10pt]{ctexart} % For A4 paper, use a4paper
+\pagestyle{empty}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{fontawesome} %
+\usepackage{helvet} % Use Helvetica font
+\usepackage{ragged2e} % For \justify
+\usepackage{geometry}
+\geometry{left=0.25in,right=0.25in,top=0.2in,bottom=0.25in} % 页边距
+
+\usepackage{enumitem} % For customizing lists
+\setlist[itemize]{leftmargin=*} % Align bullet points to the left
+
+\usepackage{hyperref} % For clickable links (email, LinkedIn, website)
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+% Define a new command for section titles
+\newcommand{\sectiontitle}[1]{
+    \vspace{0em}
+    \noindent\textbf{\large #1} % 左对齐标题
+    \vspace{0.3em}
+    \hrule
+    \vspace{0.5em}
+}
+
+\begin{document}
+
+
+% --- Contact Information ---
+\noindent
+\begin{minipage}[c]{0.78\textwidth}
+    \raggedright
+    {\textbf{\huge 你的名字}}\\[4pt]
+    电话号 $|$ 邮箱 $|$ 个人博客 $|$ ···
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.18\textwidth}
+    \raggedleft
+    \includegraphics[width=1.8cm]{def.jpg} %你的照片
+\end{minipage}
+
+\vspace{0em}
+
+% --- Education ---
+% 学校1
+\sectiontitle{教育背景 / Education}
+\noindent\normalsize % 放大整行文字
+\textbf{硕士学校\quad 硕士\quad 专业} \hfill \textbf{起始日期 -- 结束日期}
+% \normalsize % 恢复默认字号
+\noindent\small
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item 写一些你的校园经历
+\end{itemize}
+
+\vspace{0.5em}
+
+% 学校2
+\noindent\normalsize % 放大整行文字
+\textbf{本科学校\quad 学士\quad 专业} \hfill \textbf{起始日期 -- 结束日期}
+% \normalsize % 恢复默认字号
+\noindent\small
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item 写一些你的校园经历
+\end{itemize}
+
+\vspace{0.5em}
+
+% --- Awards ---
+\sectiontitle{竞赛获奖 / Awards and Honors}
+\noindent\small
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item \textbf{你得了什么奖呢} \hfill \textbf{获奖日期}
+\end{itemize}
+
+\vspace{0.5em}
+
+% --- Projects ---
+\sectiontitle{项目经历 / Projects}
+\noindent\normalsize % 放大整行文字
+\textbf{项目名} 
+% \normalsize % 恢复默认字号
+\noindent\small
+\\
+\quad 总体介绍
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item 仔细介绍
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\normalsize % 放大整行文字
+\textbf{项目名} 
+% \normalsize % 恢复默认字号
+\noindent\small
+\\
+\quad 总体介绍
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item 仔细介绍
+\end{itemize}
+
+\vspace{0.5em}
+
+% --- Research Experience (If Applicable) ---
+\sectiontitle{实习经历 / Experience}
+
+\noindent\normalsize % 放大整行文字
+\textbf{公司\ —— 职位}  \hfill \textbf{起始日期 -- 结束日期}
+% \normalsize % 恢复默认字号
+\\
+\textbf{实习项目叫啥}\\
+\noindent\small
+\vspace{-1.5em}
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item 介绍一下吧
+\end{itemize}
+
+\vspace{0.5em}
+
+\noindent\normalsize % 放大整行文字
+\textbf{公司\ —— 职位}  \hfill \textbf{起始日期 -- 结束日期}
+% \normalsize % 恢复默认字号
+\\
+\textbf{实习项目叫啥}\\
+\noindent\small
+\vspace{-1.5em}
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item 介绍一下吧
+\end{itemize}
+
+\vspace{0.5em}
+
+\sectiontitle{其他？ / anything else ?}
+
+
+\end{document}
